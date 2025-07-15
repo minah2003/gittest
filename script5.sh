@@ -1,5 +1,6 @@
 #!/bin/bash
 #test1
+#test2
 #ead -p "please Enter your faviorite os: " MY_OS
 
 while [ -z $MY_OS ]
