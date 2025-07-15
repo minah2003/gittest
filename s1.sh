@@ -1,5 +1,5 @@
 #!/bin/bash
-
+##  
 read -t 20 -p "Enter your IP: " IP
 
 
