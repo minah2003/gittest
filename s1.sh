@@ -1,5 +1,6 @@
 #!/bin/bash
 ## 2## 3## 
+#Comment1
 read -t 20 -p "Enter your IP: " IP
 
 
