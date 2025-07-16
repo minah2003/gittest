@@ -2,7 +2,7 @@
 ## 2## 3## 
 #Comment1
 read -t 20 -p "Enter your IP: " IP
-
+#comment3
 
 if [ -z $IP ] || [[ $(echo $IP | tr -d [:alnum:] | tr -d  [:space:]  | wc -c) -ne 3 ]] || [[ $(echo $IP | tr -d [=.=]) =~ [a-zA-Z#\$\%\^\&\*\(\)_\-\+=] ]]; then
  echo "Enter Valid IP"
